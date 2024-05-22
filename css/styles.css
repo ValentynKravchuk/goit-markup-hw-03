@@ -17,6 +17,8 @@ p {
   padding: 0;
 }
 ul {
+  list-style-type: none;
+  text-decoration: none;
   margin: 0;
   padding: 0;
 }
@@ -27,7 +29,7 @@ ul {
 .header-nav {
   display: flex;
   align-items: center;
-  margin-right: auto;
+  /* margin-right: auto; */
 }
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -77,11 +79,11 @@ ul {
   display: flex;
   align-items: center;
   display: block;
-  margin-right: auto;
+  margin-left: auto;
 }
 .list-header-contacts {
-  list-style-type: none;
-  text-decoration: none;
+  /* list-style-type: none; */
+  /* text-decoration: none; */
   display: flex;
   gap: 40px;
 }
@@ -337,10 +339,10 @@ ul {
 /* container */
 .container-header {
   display: flex;
+  align-items: center;
 }
 .container {
-  align-items: center;
-
+  /* align-items: center; */
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
